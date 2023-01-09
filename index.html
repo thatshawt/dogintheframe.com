@@ -2,12 +2,32 @@
 
 <head>
     <title>Dog In The Frame</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        display: grid;
+        height: 100%;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
+</style>
 </head>
 
 <body>
+    <div class="imgbox">
+        <img src="https://supermario1.s3.amazonaws.com/dogintheframe.com/PXL_20230108_195246470.jpg"
+            alt="dog picture"
+            class="center-fit">
+    </div>
+    <center>
     this is the dog in the frame, without the frame.
-    <img src="https://supermario1.s3.amazonaws.com/dogintheframe.com/PXL_20230108_195246470.jpg"
-     alt="dog picture">
+     </center>
 </body>
 
 </html>
